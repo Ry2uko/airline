@@ -1,0 +1,15 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Flights</title>
+        <link rel="stylesheet" href="{% static 'flights/styles.css' %}" type="text/css" />
+    </head>
+    <body>
+        {% block body %}{% endblock %}
+        <script type="text/javascript" src="{% static 'flights/script.js' %}"></script>
+    </body>
+</html>
